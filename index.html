@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="style.css"> </link>
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet"></link>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"></link>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+
     <title>Morgan Green</title>
 </head>
 <body>
     <header>
         <nav>
-            <ul class="nav">
-                <li>Engineering | </li>
-                <li>About Me</li>
+            <ul class="navcontainer">
+                <li class="linav"><a href="#engineering-section">Engineering</a></li>
+                <li class="linav"> | </li>
+                <li class="linav"><a href="#link-aboutme"> About Me</a></li>
             </ul>
         </nav>
         <h1>
@@ -23,47 +26,47 @@
         </h1>
         <h2>
             Fullstack Software Engineer | UX Designer | Photographer
-            <ul>
-                <li><a href="https://www.linkedin.com/in/morgan-green-932511169/"><img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-circled--v1.png"/></a></li>
-                <li><a href="https://github.com/mgreen1092"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/></a> </li>
-                <li><a href="mailto:organ-green0209@gmail.com"><img src="https://img.icons8.com/ios-glyphs/30/000000/circled-envelope.png"/></a></li>
-                <li><img src="https://img.icons8.com/ios-glyphs/30/000000/pdf.png"/></li>
+            <ul class="links">
+                <li><a href="https://www.linkedin.com/in/morgan-green-932511169/"><img src="https://img.icons8.com/ios-filled/50/000000/linkedin-circled--v1.png"/></a></li>
+                <li><a href="https://github.com/mgreen1092"><img src="https://img.icons8.com/ios-filled/50/000000/github.png"/></a> </li>
+                <li><a href="mailto:morgan-green0209@gmail.com"><img src="https://img.icons8.com/ios-filled/50/000000/circled-envelope.png"/></a></li>
+                <li><img src="https://img.icons8.com/ios-filled/50/000000/pdf--v1.png"/></li>
             </ul>
         </h2>
     </header>
     <section>
-        <h2>Engineering Projects</h2>
-            <div class="container">
-                <img class="img" src="https://millersupplyincorporated.com/wp-content/uploads/2020/09/kraftbox-18.jpg">
-                <img class="img" src="https://millersupplyincorporated.com/wp-content/uploads/2020/09/kraftbox-18.jpg" alt="wellfleet beach">
-                <img class="img" src="https://millersupplyincorporated.com/wp-content/uploads/2020/09/kraftbox-18.jpg" alt="sand dunes">
-                <img class="img" src="https://millersupplyincorporated.com/wp-content/uploads/2020/09/kraftbox-18.jpg" alt="cabo beach">
+        <h2 id="engineering-section">Engineering Projects</h2>
+            <div class="projects">
+                <img class="img" src="https://millersupplyincorporated.com/wp-content/uploads/2020/09/kraftbox-18.jpg" alt="project 1">
+                <img class="img" src="https://millersupplyincorporated.com/wp-content/uploads/2020/09/kraftbox-18.jpg" alt="project 2">
+                <img class="img" src="https://millersupplyincorporated.com/wp-content/uploads/2020/09/kraftbox-18.jpg" alt="project 3">
+                <img class="img" src="https://millersupplyincorporated.com/wp-content/uploads/2020/09/kraftbox-18.jpg" alt="project 4">
             </div>
     </section> 
     <section>
-        <div id="aboutMe">
-            <h2>About Me</h2>
-            <div id="image">
-                <img class="aboutMe" src="https://i.ibb.co/BgXsZCH/IMG-0372.jpg">
-            </div>
-            <div id="p">
-                <p class="right">I am currently attending General Assembly’s Software Engineering Immersive Program. I recently graduated from University of Vermont where I received a degree in Psychology and Statistics. After graduation, I worked in the research field where I gained experience in SQL, R-Studio, and SPSS. I then realized I wanted to learn more about computer programming and pursue a career as a Software Engineer.</p>
+        <div class="aboutme">
+        <h2 id="link-aboutme">About Me</h2>
+            <div id="aboutdetails">
+                <img src="https://i.ibb.co/BgXsZCH/IMG-0372.jpg">
+                <p>I am currently attending General Assembly’s Software Engineering Immersive Program. I recently graduated from University of Vermont where I received a degree in Psychology and Statistics. After graduation, I worked in the research field where I gained experience in SQL, R-Studio, and SPSS. I then realized I wanted to learn more about computer programming and pursue a career as a Software Engineer.</p>
             </div>
         </div>
     </section>
     <section>
         <h3>Skills:
-        <p>Front End Web Development: HTML, CSS JavaScript</p>
+            <p>Front End Web Development: HTML, CSS JavaScript</p>
+            <p>Back End Web Development: SQL</p>
+            <p>Workflow Management: Git</p>
         </h3>
     </section>
     
 </body>
 <footer>
-    <ul>
-        <li><a href="https://www.linkedin.com/in/morgan-green-932511169/"><img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-circled--v1.png"/></a></li>
-        <li><a href="https://github.com/mgreen1092"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/></a> </li>
-        <li><a href="mailto:organ-green0209@gmail.com"><img src="https://img.icons8.com/ios-glyphs/30/000000/circled-envelope.png"/></a></li>
-        <li><img src="https://img.icons8.com/ios-glyphs/30/000000/pdf.png"/></li>
+    <ul class="links">
+        <li><a href="https://www.linkedin.com/in/morgan-green-932511169/"><img src="https://img.icons8.com/ios-filled/50/000000/linkedin-circled--v1.png"/></a></li>
+        <li><a href="https://github.com/mgreen1092"><img src="https://img.icons8.com/ios-filled/50/000000/github.png"/></a> </li>
+        <li><a href="mailto:morgan-green0209@gmail.com"><img src="https://img.icons8.com/ios-filled/50/000000/circled-envelope.png"/></a></li>
+        <li><img src="https://img.icons8.com/ios-filled/50/000000/pdf--v1.png"/></li>
     </ul>
 </footer>
 </html>

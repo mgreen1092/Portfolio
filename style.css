@@ -1,5 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
-    background-color:#EFEADD;
+    background-color: gainsboro;
     margin: 10px;
 }
 header {
@@ -11,80 +15,103 @@ h1 {
     font-weight: bold;
     color: #4c6353;
     font-family:'Julius Sans One', sans-serif;
-    padding: 170px 20px 0px 40px;
+    /* padding: 170px 20px 0px 40px; */
+    padding-top: 170px;
+    margin: 20px;
     font-size: 80px;
 }
-li {
+.navcontainer {
+    display: flex;
+    justify-content: flex-end;
     list-style-type: none;
-    display: inline;
-    font-size: 29px;
 }
-
-h2 {
+.linav {
+    padding: 10px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 30px;
+    font-size: 100px;
+    font-weight: bold;
+    padding-bottom: 300px;
+}
+li {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+a {
+    color: #767771;
+}
+a:hover {
+    color: #4c6353;
+}
+#engineering-section {
     font-family:'Julius Sans One', sans-serif;
     text-align: center;
-    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
-p {
-    font-family:'Julius Sans One', sans-serif;
-    text-align: center;
-}
-h3 {
-    font-family:'Julius Sans One', sans-serif;
-    text-align: center;
-    padding: 30px;
-}
-.right {
-    text-align: right;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-
-
-}
-.container {
+.projects {
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
     justify-content: space-around;
     row-gap: 30px;
     column-gap: 30px;
-
-
+    padding-bottom: 150px;
 }
-img {
-    width: 45px;
-    height: 45px;
-    padding: 30px;
+#link-aboutme {
+    font-family:'Julius Sans One', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
-.img {
-    width: 280px;
-    height: 280px;
-    justify-content: center;
+.aboutme {
+    justify-content: space-between;
+    padding: 10px;
+}
+#aboutdetails {
+    display: flex;
+}
+.aboutme img {
+    width: 180px;
+    height: 220px;
+}
+.aboutme p {
+    padding-left: 40px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+h3 {
+    font-family:'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+h3 p{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
 footer {
     text-align: center;
 }
-.nav {
-    text-align: right;
-    padding: 0px 40px 0px 40px;
-}
-.aboutMe {
-    width: 150px;
-    height: 200px;
-    float: left;
-}
 
-#image{
-    border: 10px solid black;
-    position: absolute;
-    left: 0px;
-    padding-bottom: 20px;
+@media only screen and (max-width: 420px){
+    .nav {
+        text-align: center;
+    }
+    #aboutdetails {
+        flex-direction: column;
+    }
+    .aboutme img {
+        display: flex;
+        justify-content: center;
+    }
+    h3 p {
+        text-align: center;
+    }
 }
-#p {
-    border: 10px solid blue;
-    left: 200px;
-}
-#aboutMe {
-    position: relative;
-    border: 10px solid red;
-}
+    
